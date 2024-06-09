@@ -1,11 +1,11 @@
 import './style.css'
 
 const onMasatoClick = () => {
-    window.location.href = '/masato.html'
+    window.location.href = 'https://heyzine.com/flip-book/79bb6a9f2a.html'
 }
 
 const onMasumiClick = () => {
-    window.location.href = 'https://heyzine.com/flip-book/79d1036a0f.html'
+    window.location.href = 'https://heyzine.com/flip-book/cd7d15690e.html'
 }
 
 const main = async () => {
