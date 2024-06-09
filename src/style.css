@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes appearInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'kgshadow';
+    src: url('/fonts/kgshadow.ttf') format('truetype');
+}
+
+/** {
+    outline: 1px solid red;
+} */
+
+#first {
+    animation: appearInOpacity 1s ease-in-out 0s 1 normal forwards running;
+}
+
+#background {
+    background: url('https://i.pinimg.com/564x/f5/4b/0d/f54b0d9d056f432251c9b7ba80164db6.jpg') no-repeat top center fixed;
+    background-size: cover;
+}
+
+#backgroundMasumi {
+    background: url('/black-moon.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+#gif {
+    width: 100%;
+    height: 100%;
+}
+
+#progress-container {
+    width: 50%;
+    background-color: #4a5568;
+    border-radius: 9999px;
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+#progress-bar {
+    background-color: #d1c70f;
+    height: 1rem;
+    border-radius: 9999px;
+    width: 0;
+}

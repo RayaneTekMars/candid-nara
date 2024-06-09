@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/nara.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="absolute top-0 left-0 w-full h-screen z-0" id="background"></div>
+    <div class="absolute top-0 left-0 w-full h-screen z-1 bg-black opacity-80"></div>
+    <div class="w-full h-screen flex flex-col items-center justify-center overflow-hidden relative z-2" id="landing">
+      <div class="my-40">
+        <h1 class="font-kgshadow text-white text-9xl font-bold">Clan NARA</h1>
+      </div>
+      <div id="first" class="flex-grow max-w-full grid grid-cols-2 items-end justify-end">
+        <div id="masumi" class="flex flex-col items-center justify-end group hover:cursor-pointer">
+          <p class="font-kgshadow text-white mb-20 xl:mb-28 opacity-70 group-hover:opacity-100 text-6xl font-bold transition-all group-hover:scale-110">Masumi NARA</p>
+          <img src="/masumicolor.png" class="col-span-1 h-[560px] lg:h-[612px] xl:h-[788px] grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all object-contain" />
+        </div>
+        <div id="masato" class="flex flex-col items-center justify-end group hover:cursor-pointer">
+          <p class="font-kgshadow text-white mb-2 opacity-70 group-hover:opacity-100 text-6xl font-bold transition-all group-hover:scale-110">Masato NARA</p>
+          <img src="/masatocolor.png" class="col-span-1 h-[640px] lg:h-[700px] xl:h-[900px] grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all object-contain" />
+        </div>
+      </div>
+      <div id="second"></div>
+      <div id="third" class="h-screen w-full flex items-center justify-center flex-col hidden">
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/characters.ts"></script>
+</body>
+
+</html>

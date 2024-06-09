@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/nara.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite + TS</title>
+</head>
+<body>
+<div id="app">
+    <div class="absolute top-0 left-0 w-full h-screen z-0" id="backgroundMasumi"></div>
+    <div class="absolute top-0 left-0 w-full h-screen z-1 bg-[#2E2832] opacity-80"></div>
+    <div class=" h-screen w-full flex flex-col items-center justify-center overflow-hidden relative z-2 px-36 py-12"
+         id="landing">
+        <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe"
+                style="border: 1px solid lightgray; width: 1000px; height: 1000px;"
+                src="https://heyzine.com/flip-book/b2f2af2658.html"></iframe>
+    </div>
+</div>
+<script type="module" src="/src/character.ts"></script>
+</body>
+</html>
